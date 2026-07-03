@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Meteosense</title>
+<style>
+  body { font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Georgia, serif;
+         color: #1d1d1f; max-width: 680px; margin: 0 auto; padding: 48px 20px 80px; }
+  h1 { font-size: 1.9em; line-height: 1.2; }
+  h2 { font-size: 1.25em; margin-top: 2em; }
+  h3 { font-size: 1.05em; margin-top: 1.6em; }
+  a { color: #b25b28; }
+  nav { margin-bottom: 2.5em; font-size: 0.95em; }
+  nav a { margin-right: 16px; text-decoration: none; }
+  footer { margin-top: 4em; font-size: 0.85em; color: #86868b; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #111; color: #eee; }
+    a { color: #e8955c; }
+    footer { color: #888; }
+  }
+</style>
+</head>
+<body>
+<nav><a href="index.html">Meteosense</a> <a href="privacy.html">Privacy Policy</a> <a href="terms.html">Terms of Use</a></nav>
+<h1>Privacy Policy — Meteosense</h1>
+<p><strong>Effective date:</strong> July 3, 2026 <strong>Developer:</strong> Evgenii Elovskii, individual developer ("we", "us") <strong>Contact:</strong> everyoneneedsthebreatheeasy@gmail.com</p>
+<p>Meteosense is a biometeorology app that helps you understand when environmental factors (atmospheric pressure, geomagnetic activity, temperature, humidity, wind, the Moon, and space weather) may be affecting how you feel. This policy explains what data the app uses and how.</p>
+<p><strong>Short version:</strong> Meteosense does not require an account, does not ask for your name or email, does not show ads, does not track you across apps or websites, and does not sell your data. Your history stays on your device.</p>
+<h2>Information we use</h2>
+<h3>Location</h3>
+<p>With your permission, Meteosense uses your device's location to fetch weather, geomagnetic, and space-weather conditions for your area. Your coordinates are rounded to approximately 11 km before use, for privacy. Location is used only to retrieve environmental data — it is <strong>not</strong> stored on our servers, <strong>not</strong> linked to your identity, and <strong>not</strong> used for advertising or tracking.</p>
+<p>If you prefer, you can decline location access and enter a city manually.</p>
+<h3>Environmental data</h3>
+<p>To calculate your daily environmental load, the app requests weather and space-weather data from third-party sources (see "Third-party services" below). This data describes the environment, not you.</p>
+<h3>Day ratings</h3>
+<p>When you rate how you felt on a given day (a 1–5 value), that rating is stored locally on your device to personalize your results. An <strong>anonymous</strong> copy of the rating may be sent to our backend to compute an aggregate statistic (for example, "a share of people reported feeling similarly"). The submitted payload contains <strong>no account, no device identifier, and no location</strong> — only the rating and the day's environmental classification. As with any internet request, our hosting provider (Google Firebase) may transiently process standard technical data such as your IP address to deliver the request, governed by Google's Privacy Policy.</p>
+<h3>On-device personalization</h3>
+<p>Meteosense learns your personal sensitivity to different factors using a model that runs entirely <strong>on your device</strong>. The learned weights never leave your device and are not transmitted to us or anyone else.</p>
+<h3>History</h3>
+<p>Your rated history is stored <strong>locally</strong> on your device (in the app's on-device database), for up to 60 days. It is never uploaded.</p>
+<h3>Technical settings</h3>
+<p>The app stores small preference flags on your device (for example, notification de-duplication and display settings). These contain no personal information.</p>
+<h2>What we do NOT collect</h2>
+<ul>
+<li>No name, email address, phone number, or account.</li>
+<li>No contacts, photos, or health records.</li>
+<li>No advertising identifier (IDFA); no cross-app or cross-site tracking.</li>
+<li>No sale or sharing of personal data for advertising.</li>
+</ul>
+<h2>Third-party services</h2>
+<p>Meteosense relies on the following services to function. Each has its own privacy policy:</p>
+<ul>
+<li><strong>Apple WeatherKit</strong> — provides weather data for your (approximate) location.</li>
+</ul>
+<p>Governed by Apple's Privacy Policy.</p>
+<ul>
+<li><strong>NOAA / SWPC</strong> — public space-weather data (Kp index, solar flares).</li>
+<li><strong>Google Firebase</strong> — hosts backend functions that deliver space-weather data</li>
+</ul>
+<p>and compute anonymous aggregate statistics. Governed by Google's Privacy Policy.</p>
+<ul>
+<li><strong>Adapty</strong> — subscription-management SDK. The App initializes it at launch,</li>
+</ul>
+<p>which creates an anonymous technical profile (no name or email); it is used for purchase management only if paid features are offered. Governed by Adapty's Privacy Policy.</p>
+<h2>Notifications</h2>
+<p>If you allow notifications, Meteosense may alert you before a day with elevated environmental load. Notifications are optional and can be turned off at any time in iOS Settings.</p>
+<h2>Data retention and deletion</h2>
+<p>Because your history, ratings, and personalization model live on your device, you are in control. In <strong>Settings → Delete All Data</strong>, you can permanently remove your history, ratings, and learned model weights. Uninstalling the app also removes all locally stored data.</p>
+<h2>Children</h2>
+<p>Meteosense is not directed to children under the age of 13 and we do not knowingly collect personal information from them.</p>
+<h2>Your rights</h2>
+<p>Depending on your region (e.g., GDPR in the EU, CCPA in California), you may have rights to access or delete your data. Because we do not hold personal data linked to your identity on our servers, you can exercise these rights directly by using the in-app deletion feature. For questions, contact us at everyoneneedsthebreatheeasy@gmail.com.</p>
+<h2>Changes to this policy</h2>
+<p>We may update this policy from time to time. Material changes will be reflected by updating the "Effective date" above.</p>
+<h2>Contact</h2>
+<p>Evgenii Elovskii everyoneneedsthebreatheeasy@gmail.com</p>
+<footer>&copy; 2026 Evgenii Elovskii</footer>
+</body>
+</html>
