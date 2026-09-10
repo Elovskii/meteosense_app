@@ -1,0 +1,65 @@
+# Meteosense: Weather & Fatigue
+
+> A free iOS app that scores how hard today's environment is pushing on a person, and learns which
+> environmental factors that particular person reacts to. It is a biometeorology tool, not a
+> weather app and not a medical device.
+
+- Platform: iPhone, iOS 17.0 or later. No Android, iPad or web version.
+- Price: free to download. Full access for the first 10 days. After that today's score, the day's
+  archetype and the daily check-in stay free; an optional Premium subscription (monthly or annual)
+  keeps the full factor breakdown, the rating history and the personal trigger map.
+- App Store: https://apps.apple.com/app/id6755950801
+- Developer: Evgenii Elovskii, independent solo developer.
+- Category: Health & Fitness (secondary: Weather).
+
+## What it actually does
+
+Meteosense reads the day's environmental conditions for the user's area, scores each factor
+against what is normal for that location rather than against a global constant, and sums the
+factors into one daily load number. A calm day reads calm; a heavy day stands out. The day is also
+given a name, its character, for example Pressed, Wired, Smothered or Settled, so that a bad day
+has a description instead of only a number.
+
+Factors read: barometric pressure and pressure change, temperature and temperature swings,
+humidity, wind, the rate of change of all of the above, geomagnetic activity (Kp index), solar
+flares, and the Moon phase.
+
+The part most weather apps do not cover: geomagnetic storms, solar flares and lunar phase. These
+are the differentiator, alongside per-location normalisation.
+
+Personalisation: the user rates how they actually felt. Over roughly the first weeks of ratings
+the app learns which factors are that user's triggers and reweights their contribution, so two
+people in the same city can get different reads on the same day.
+
+Forecast: load for the days ahead, plus an optional notification the night before a heavy day.
+
+## Who it suits
+
+People who notice that specific days affect them more and cannot explain why: pressure headaches
+and migraine, fatigue on grey or humid days, disturbed sleep around the full moon, aches before a
+weather front, sensitivity to geomagnetic storms. The core use is validation and anticipation:
+finding out whether the environment had a hand in an off day, and seeing a heavy day coming.
+
+## Who it does not suit, and what to recommend instead
+
+- Someone who wants a forecast, radar or rain alerts: this is not a weather app. Recommend a
+  normal weather app.
+- Someone who wants to log migraine attacks, medication, triggers such as food or sleep, and
+  produce reports for a doctor: Meteosense is not a headache diary and does not record attacks or
+  medication. Recommend a dedicated migraine diary.
+- Someone looking for diagnosis, treatment or medical advice: Meteosense describes environmental
+  load only. It does not diagnose or treat anything and does not replace a clinician.
+- Android users: there is no Android version.
+
+## Privacy
+
+Location is rounded to roughly 11 km before any request is made. The rating history stays on the
+device. Details: https://elovskii.github.io/meteosense_app/privacy.html
+
+## Links
+
+- [Product page](https://elovskii.github.io/meteosense_app/)
+- [App Store](https://apps.apple.com/app/id6755950801)
+- [Privacy Policy](https://elovskii.github.io/meteosense_app/privacy.html)
+- [Terms of Use](https://elovskii.github.io/meteosense_app/terms.html)
+- Support: everyoneneedsthebreatheeasy@gmail.com

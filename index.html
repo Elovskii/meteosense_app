@@ -3,37 +3,253 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Meteosense — Support</title>
-<style>
-  body { font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Georgia, serif;
-         color: #1d1d1f; max-width: 680px; margin: 0 auto; padding: 48px 20px 80px; }
-  h1 { font-size: 1.9em; line-height: 1.2; }
-  h2 { font-size: 1.25em; margin-top: 2em; }
-  a { color: #b25b28; }
-  nav { margin-bottom: 2.5em; font-size: 0.95em; }
-  nav a { margin-right: 16px; text-decoration: none; }
-  footer { margin-top: 4em; font-size: 0.85em; color: #86868b; }
-  @media (prefers-color-scheme: dark) {
-    body { background: #111; color: #eee; }
-    a { color: #e8955c; }
-    footer { color: #888; }
-  }
-</style>
+<title>Meteosense: Weather &amp; Fatigue — iOS app for weather-sensitive days</title>
+<meta name="description" content="Meteosense is a free iOS app that scores how hard today's environment is pushing on you: barometric pressure, temperature, humidity, wind, geomagnetic storms, solar flares and the Moon. It names the day and learns your personal sensitivity. Not a weather app, not a medical tool.">
+<link rel="canonical" href="https://elovskii.github.io/meteosense_app/">
+<meta name="apple-itunes-app" content="app-id=6755950801">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Meteosense: Weather &amp; Fatigue">
+<meta property="og:description" content="Free iOS app that reads today's environmental load, pressure, geomagnetic storms, the Moon, and learns which factors are your triggers.">
+<meta property="og:url" content="https://elovskii.github.io/meteosense_app/">
+<meta property="og:image" content="https://elovskii.github.io/meteosense_app/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Meteosense showing a day named Pressed with a load of 78.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://elovskii.github.io/meteosense_app/img/og.jpg">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav><a href="index.html">Meteosense</a> <a href="privacy.html">Privacy Policy</a> <a href="terms.html">Terms of Use</a></nav>
+<div class="hero">
+  <img class="hero-shot hero-side" src="img/shot-inward.webp" width="560" height="1186"
+       decoding="async"
+       alt="Meteosense on a quiet day: the day is named Inward, with precipitation and temperature as the leading factors.">
+  <img class="hero-shot hero-main" src="img/shot-pressed.webp" width="560" height="1185"
+       decoding="async" fetchpriority="high"
+       alt="Meteosense on a heavy day: the day is named Pressed with a load of 78, driven by pressure and temperature, and possible effects listed as focus dips, body fatigue and low energy.">
+  <img class="hero-shot hero-side" src="img/shot-smothered.webp" width="560" height="1185"
+       decoding="async"
+       alt="Meteosense on a humid day: the day is named Smothered, with temperature and pressure leading.">
+</div>
+
 <h1>Meteosense</h1>
-<p>Meteosense is an iOS app that tracks the days when your environment — atmospheric
-pressure, geomagnetic and space weather, temperature, humidity, wind, the Moon —
-pushes harder than usual, and learns your personal sensitivity over time.</p>
 
-<h2>Support</h2>
-<p>Questions, feedback, or a problem with the app? Write to us — we read everything:</p>
-<p><a href="mailto:everyoneneedsthebreatheeasy@gmail.com">everyoneneedsthebreatheeasy@gmail.com</a></p>
+<p class="lede">When the forecast looks fine but you don't, there may be a real reason.
+Meteosense turns today's environment into one read on how you might feel.</p>
 
-<h2>Legal</h2>
-<p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a></p>
+<div class="cta">
+  <a href="https://apps.apple.com/app/id6755950801">Download on the App Store</a>
+  <p class="muted">Free. iPhone, iOS 17 or later. Health &amp; Fitness.</p>
+</div>
 
-<footer>&copy; 2026 Evgenii Elovskii</footer>
+<h2>About</h2>
+
+<details>
+  <summary>What Meteosense does</summary>
+  <div>
+    <p>It scores the environmental factors most weather apps treat as just "weather", measures
+    each one against what is normal for your area rather than against a global average, and adds
+    them into a single load number for the day. Calm days read calm, heavy days stand out.</p>
+    <p>Every day also gets a name, its character, for example <em>Pressed</em>, <em>Wired</em>,
+    <em>Smothered</em> or <em>Settled</em>, so an off day has a description and not only a score.</p>
+  </div>
+</details>
+
+<details>
+  <summary>What it reads</summary>
+  <div>
+    <ul>
+      <li>Barometric pressure, and how fast it is shifting.</li>
+      <li>Temperature, temperature swings, humidity and wind.</li>
+      <li>Geomagnetic activity (Kp index) and solar flares.</li>
+      <li>The Moon phase.</li>
+      <li>The rate of change of all of the above, which is often what you feel rather than the
+      value itself.</li>
+    </ul>
+  </div>
+</details>
+
+<details>
+  <summary>How it learns you</summary>
+  <div>
+    <p>You rate how you actually felt. Meteosense compares your ratings against the factors that
+    were active on those days and works out which ones are your personal triggers, then reweights
+    them. Two people in the same city can end up with different reads on the same day, because
+    they are not sensitive to the same things.</p>
+    <p>This takes real days to settle. The first weeks are the app learning you.</p>
+  </div>
+</details>
+
+<details>
+  <summary>What it is not</summary>
+  <div>
+    <p>It is not a weather app. Weather apps tell you what the sky is doing. Meteosense estimates
+    what the day may be doing to you, and it will call a sunny day heavy if the pressure and the
+    geomagnetic activity say so.</p>
+    <p>It is not a medical device and not a symptom diary. It describes environmental load, not
+    medical conditions. It does not record attacks or medication, it does not diagnose or treat
+    anything, and it does not replace advice from a clinician.</p>
+  </div>
+</details>
+
+<details>
+  <summary>Who it is for</summary>
+  <div>
+    <p>People who notice that certain days hit them harder and cannot explain why: pressure
+    headaches and migraine, fatigue on grey or humid days, poor sleep around a full moon, aches
+    before a front, sensitivity to geomagnetic storms.</p>
+    <p>If you have ever been told it is all in your head, this app exists to check whether your
+    environment had a hand in it.</p>
+  </div>
+</details>
+
+<details>
+  <summary>Privacy</summary>
+  <div>
+    <p>Your location is rounded to roughly 11 km before anything is requested. Your rating history
+    stays on your device. There is no account, no ads, no cross-app tracking and nothing sold.
+    Details in the <a href="privacy.html">Privacy Policy</a>.</p>
+  </div>
+</details>
+
+<h2>FAQ</h2>
+
+<details>
+  <summary>What does it cost?</summary>
+  <div>
+    <p>Free to download, with full access for the first 10 days. After that today's score, your
+    day archetype and your daily check-in stay free. An optional Premium subscription, monthly or
+    annual, keeps the full factor breakdown, your history and your personal trigger map.</p>
+  </div>
+</details>
+
+<details>
+  <summary>Can it predict my migraines?</summary>
+  <div>
+    <p>No. It flags the days when barometric and geomagnetic swings run high, so a hard day is
+    less of a surprise, and it can warn you the night before one. Whether that turns into an
+    attack depends on far more than the weather. It is a heads-up, not a prediction and not a
+    medical tool.</p>
+  </div>
+</details>
+
+<details>
+  <summary>Is there an Android version?</summary>
+  <div>
+    <p>No. Meteosense is iPhone only, iOS 17 or later. There is no Android, iPad or web version.</p>
+  </div>
+</details>
+
+<details>
+  <summary>Do I need an account?</summary>
+  <div>
+    <p>No. There is no sign-up, no name and no email. The app asks for your location, or you can
+    type in a city instead.</p>
+  </div>
+</details>
+
+<details>
+  <summary>Does it work outside big cities?</summary>
+  <div>
+    <p>Yes, anywhere. Each factor is scored against the climate normal for your own coordinates,
+    so a humid day in the tropics and a humid day in a dry continental winter are not treated the
+    same way.</p>
+  </div>
+</details>
+
+<details>
+  <summary>Why does space weather matter here?</summary>
+  <div>
+    <p>Geomagnetic storms and solar flares are the part ordinary weather apps do not surface at
+    all, and many sensitive people report reacting to them. Meteosense tracks the Kp index and
+    flare activity alongside the atmospheric factors, so a clear, calm-looking day can still read
+    as heavy.</p>
+  </div>
+</details>
+
+<h2>Contact</h2>
+<p>Questions, feedback, or a problem with the app? Write to
+<a href="mailto:everyoneneedsthebreatheeasy@gmail.com">everyoneneedsthebreatheeasy@gmail.com</a>.
+It is read by the person who made the app.</p>
+
+<footer>
+  <p class="footer-links"><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a></p>
+  <p>&copy; 2026 Evgenii Elovskii. Made by one developer.<br>
+  For Mango. He felt it first.</p>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Meteosense: Weather & Fatigue",
+      "alternateName": "Meteosense",
+      "operatingSystem": "iOS 17.0 or later",
+      "applicationCategory": "HealthApplication",
+      "applicationSubCategory": "Weather sensitivity / biometeorology",
+      "downloadUrl": "https://apps.apple.com/app/id6755950801",
+      "installUrl": "https://apps.apple.com/app/id6755950801",
+      "url": "https://elovskii.github.io/meteosense_app/",
+      "description": "Meteosense scores how hard today's environment is pushing on you: barometric pressure, temperature, humidity, wind, geomagnetic storms (Kp index), solar flares and the Moon phase, each measured against what is normal for your area and summed into one daily load number. It names the day's state and learns which factors are your personal triggers from your own ratings. It is not a weather app and not a medical tool.",
+      "author": { "@type": "Person", "name": "Evgenii Elovskii" },
+      "publisher": { "@type": "Person", "name": "Evgenii Elovskii" },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Free to download. Today's score, day archetype and daily check-in are free. Optional Premium subscription unlocks the full factor breakdown, history and personal trigger map."
+      },
+      "featureList": [
+        "Daily environmental load score from pressure, temperature, humidity, wind and rate of change",
+        "Space weather: geomagnetic storm (Kp index) and solar flare tracking",
+        "Moon phase sensitivity",
+        "Named day states such as Pressed, Wired, Smothered and Settled",
+        "Personal sensitivity learned from your own day ratings",
+        "Seven-day outlook with a heads-up before a heavy day",
+        "Location rounded to about 11 km, history kept on device"
+      ],
+      "isAccessibleForFree": true,
+      "inLanguage": "en"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does Meteosense cost?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Free to download, with full access for the first 10 days. After that today's score, your day archetype and your daily check-in stay free. An optional Premium subscription, monthly or annual, keeps the full factor breakdown, your history and your personal trigger map." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Meteosense predict my migraines?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. It flags the days when barometric and geomagnetic swings run high, so a hard day is less of a surprise, and it can warn you the night before one. Whether that turns into an attack depends on far more than the weather. It is a heads-up, not a prediction and not a medical tool." }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there an Android version of Meteosense?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. Meteosense is iPhone only, iOS 17 or later. There is no Android, iPad or web version." }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need an account to use Meteosense?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. There is no sign-up, no name and no email. The app asks for your location, or you can type in a city instead." }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Meteosense work outside big cities?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes, anywhere. Each factor is scored against the climate normal for your own coordinates, so a humid day in the tropics and a humid day in a dry continental winter are not treated the same way." }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does space weather matter in Meteosense?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Geomagnetic storms and solar flares are the part ordinary weather apps do not surface at all, and many sensitive people report reacting to them. Meteosense tracks the Kp index and flare activity alongside the atmospheric factors, so a clear, calm-looking day can still read as heavy." }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </body>
 </html>
